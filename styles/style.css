@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
+.inline{
+    margin: 15px;
+    padding: 5px;
+    display: inline-block;
+    color: aqua;
+}
+h1{
+    color: rgb(255, 72, 0);
+   margin: 10px 0px 0px 80px;
+   /* padding: 10px; */
+}
+.text{
+    text-align: justify;
+    color: hwb(32 0% 0%);
+   margin: 10px 30px 0px 80px ;
+   padding: 10px;
+}
+.container{
+    display: flex;
+}
+.box{
+    width: 50%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.432);
+    margin: 10px;
+}
